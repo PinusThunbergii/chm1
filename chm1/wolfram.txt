@@ -1,0 +1,1 @@
+derivative y=3x^2+cos(x)^2, where x = 0.2380
