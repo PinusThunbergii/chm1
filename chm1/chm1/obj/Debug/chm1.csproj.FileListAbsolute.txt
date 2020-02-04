@@ -5,3 +5,11 @@ D:\ipz2_03\Ch_M\chm1\chm1\obj\Debug\chm1.csprojAssemblyReference.cache
 D:\ipz2_03\Ch_M\chm1\chm1\obj\Debug\chm1.csproj.CoreCompileInputs.cache
 D:\ipz2_03\Ch_M\chm1\chm1\obj\Debug\chm1.exe
 D:\ipz2_03\Ch_M\chm1\chm1\obj\Debug\chm1.pdb
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.exe.config
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.exe
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.pdb
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.exe
+C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.pdb
+C:\Users\Alex\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.MainForm.resources
+C:\Users\Alex\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.csproj.GenerateResource.cache

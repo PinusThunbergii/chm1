@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Forms;
 
 namespace chm1
 {
     class Program
     {
+        /*
+        delegate double Function(double x);
         static double function(double x)
         {
             return 3.0d * Math.Pow(x, 2.0d) + Math.Pow(Math.Cos(x), 2.0d);
@@ -37,13 +39,25 @@ namespace chm1
             return (-25.0d * y_array[0] + 48.0d * y_array[1] - 36.0d * y_array[2] + 16.0d * y_array[3] - 3.0d * y_array[4]) / (12.0d * dx);
         }
 
+        static double secondDerive(double x0, double dx, Function function)
+        {
+            return (function(x0 + dx) - function(x0) + function(x0 - dx)) / Math.Pow(dx, 2.0d);
+        }
+        */
+        [STAThread]
         static void Main(string[] args)
         {
+            /*
             double x_0 = 0.2380d, dx = 0.0227d;
             double[] x_array, y_array;
             CalcTable(x_0, dx, out x_array, out y_array);
             Console.WriteLine($"4:{fourDots(y_array, dx)} 5:{fiveDots(y_array, dx)}");
             Console.ReadKey();
+            */
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
         }
     }
 }
