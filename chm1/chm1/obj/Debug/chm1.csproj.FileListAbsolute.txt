@@ -13,3 +13,11 @@ C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.exe
 C:\Users\Alex\source\repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.pdb
 C:\Users\Alex\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.MainForm.resources
 C:\Users\Alex\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.csproj.GenerateResource.cache
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.exe.config
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.exe
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\bin\Debug\chm1.pdb
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.csprojAssemblyReference.cache
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.MainForm.resources
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.csproj.GenerateResource.cache
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.exe
+C:\Users\Aleksey Maksymyshyn\Source\Repos\PinusThunbergii\chm1\chm1\chm1\obj\Debug\chm1.pdb

@@ -32,19 +32,19 @@
             this.x0TextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.resultGroupBox = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.diffTextBox = new System.Windows.Forms.TextBox();
+            this.secondDeriveResultLabel = new System.Windows.Forms.Label();
+            this.secondDeriveResultTextBox = new System.Windows.Forms.TextBox();
+            this.dot5Label = new System.Windows.Forms.Label();
+            this.dot5ResultTextBox = new System.Windows.Forms.TextBox();
+            this.dot4Label = new System.Windows.Forms.Label();
+            this.dot4ResultTextbox = new System.Windows.Forms.TextBox();
             this.toCompareTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.compareButton = new System.Windows.Forms.Button();
-            this.dot4ResultTextbox = new System.Windows.Forms.TextBox();
-            this.dot4Label = new System.Windows.Forms.Label();
-            this.dot5ResultTextBox = new System.Windows.Forms.TextBox();
-            this.dot5Label = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dXTextBox = new System.Windows.Forms.TextBox();
-            this.secondDeriveResultTextBox = new System.Windows.Forms.TextBox();
-            this.secondDeriveResultLabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.diffTextBox = new System.Windows.Forms.TextBox();
             this.resultGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,10 +86,74 @@
             this.resultGroupBox.Controls.Add(this.dot4ResultTextbox);
             this.resultGroupBox.Location = new System.Drawing.Point(366, 49);
             this.resultGroupBox.Name = "resultGroupBox";
-            this.resultGroupBox.Size = new System.Drawing.Size(282, 242);
+            this.resultGroupBox.Size = new System.Drawing.Size(372, 242);
             this.resultGroupBox.TabIndex = 3;
             this.resultGroupBox.TabStop = false;
             this.resultGroupBox.Text = "Result";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(22, 180);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "diff";
+            // 
+            // diffTextBox
+            // 
+            this.diffTextBox.Location = new System.Drawing.Point(25, 196);
+            this.diffTextBox.Name = "diffTextBox";
+            this.diffTextBox.Size = new System.Drawing.Size(327, 20);
+            this.diffTextBox.TabIndex = 12;
+            // 
+            // secondDeriveResultLabel
+            // 
+            this.secondDeriveResultLabel.AutoSize = true;
+            this.secondDeriveResultLabel.Location = new System.Drawing.Point(22, 141);
+            this.secondDeriveResultLabel.Name = "secondDeriveResultLabel";
+            this.secondDeriveResultLabel.Size = new System.Drawing.Size(93, 13);
+            this.secondDeriveResultLabel.TabIndex = 11;
+            this.secondDeriveResultLabel.Text = "Second derivative";
+            // 
+            // secondDeriveResultTextBox
+            // 
+            this.secondDeriveResultTextBox.Location = new System.Drawing.Point(25, 157);
+            this.secondDeriveResultTextBox.Name = "secondDeriveResultTextBox";
+            this.secondDeriveResultTextBox.Size = new System.Drawing.Size(100, 20);
+            this.secondDeriveResultTextBox.TabIndex = 10;
+            // 
+            // dot5Label
+            // 
+            this.dot5Label.AutoSize = true;
+            this.dot5Label.Location = new System.Drawing.Point(22, 85);
+            this.dot5Label.Name = "dot5Label";
+            this.dot5Label.Size = new System.Drawing.Size(13, 13);
+            this.dot5Label.TabIndex = 9;
+            this.dot5Label.Text = "5";
+            // 
+            // dot5ResultTextBox
+            // 
+            this.dot5ResultTextBox.Location = new System.Drawing.Point(25, 111);
+            this.dot5ResultTextBox.Name = "dot5ResultTextBox";
+            this.dot5ResultTextBox.Size = new System.Drawing.Size(100, 20);
+            this.dot5ResultTextBox.TabIndex = 8;
+            // 
+            // dot4Label
+            // 
+            this.dot4Label.AutoSize = true;
+            this.dot4Label.Location = new System.Drawing.Point(22, 31);
+            this.dot4Label.Name = "dot4Label";
+            this.dot4Label.Size = new System.Drawing.Size(13, 13);
+            this.dot4Label.TabIndex = 7;
+            this.dot4Label.Text = "4";
+            // 
+            // dot4ResultTextbox
+            // 
+            this.dot4ResultTextbox.Location = new System.Drawing.Point(25, 59);
+            this.dot4ResultTextbox.Name = "dot4ResultTextbox";
+            this.dot4ResultTextbox.Size = new System.Drawing.Size(100, 20);
+            this.dot4ResultTextbox.TabIndex = 7;
             // 
             // toCompareTextBox
             // 
@@ -117,38 +181,6 @@
             this.compareButton.UseVisualStyleBackColor = true;
             this.compareButton.Click += new System.EventHandler(this.compareButtonHandler);
             // 
-            // dot4ResultTextbox
-            // 
-            this.dot4ResultTextbox.Location = new System.Drawing.Point(25, 59);
-            this.dot4ResultTextbox.Name = "dot4ResultTextbox";
-            this.dot4ResultTextbox.Size = new System.Drawing.Size(100, 20);
-            this.dot4ResultTextbox.TabIndex = 7;
-            // 
-            // dot4Label
-            // 
-            this.dot4Label.AutoSize = true;
-            this.dot4Label.Location = new System.Drawing.Point(22, 31);
-            this.dot4Label.Name = "dot4Label";
-            this.dot4Label.Size = new System.Drawing.Size(13, 13);
-            this.dot4Label.TabIndex = 7;
-            this.dot4Label.Text = "4";
-            // 
-            // dot5ResultTextBox
-            // 
-            this.dot5ResultTextBox.Location = new System.Drawing.Point(25, 111);
-            this.dot5ResultTextBox.Name = "dot5ResultTextBox";
-            this.dot5ResultTextBox.Size = new System.Drawing.Size(100, 20);
-            this.dot5ResultTextBox.TabIndex = 8;
-            // 
-            // dot5Label
-            // 
-            this.dot5Label.AutoSize = true;
-            this.dot5Label.Location = new System.Drawing.Point(22, 85);
-            this.dot5Label.Name = "dot5Label";
-            this.dot5Label.Size = new System.Drawing.Size(13, 13);
-            this.dot5Label.TabIndex = 9;
-            this.dot5Label.Text = "5";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -164,38 +196,6 @@
             this.dXTextBox.Name = "dXTextBox";
             this.dXTextBox.Size = new System.Drawing.Size(100, 20);
             this.dXTextBox.TabIndex = 7;
-            // 
-            // secondDeriveResultTextBox
-            // 
-            this.secondDeriveResultTextBox.Location = new System.Drawing.Point(25, 157);
-            this.secondDeriveResultTextBox.Name = "secondDeriveResultTextBox";
-            this.secondDeriveResultTextBox.Size = new System.Drawing.Size(100, 20);
-            this.secondDeriveResultTextBox.TabIndex = 10;
-            // 
-            // secondDeriveResultLabel
-            // 
-            this.secondDeriveResultLabel.AutoSize = true;
-            this.secondDeriveResultLabel.Location = new System.Drawing.Point(22, 141);
-            this.secondDeriveResultLabel.Name = "secondDeriveResultLabel";
-            this.secondDeriveResultLabel.Size = new System.Drawing.Size(93, 13);
-            this.secondDeriveResultLabel.TabIndex = 11;
-            this.secondDeriveResultLabel.Text = "Second derivative";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 180);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "diff";
-            // 
-            // diffTextBox
-            // 
-            this.diffTextBox.Location = new System.Drawing.Point(25, 196);
-            this.diffTextBox.Name = "diffTextBox";
-            this.diffTextBox.Size = new System.Drawing.Size(251, 20);
-            this.diffTextBox.TabIndex = 12;
             // 
             // MainForm
             // 
